@@ -1,15 +1,15 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'MIPS_iOS_SDK'
-  s.version          = '0.6.0'
+  s.name             = 'MipsPaymentSdk'
+  s.version          = '0.6.1'
   s.summary          = 'official iOS SDK for MIPS paymemnt services'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/DavidMips/ios-sdk'
+  s.homepage         = 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akshar@shyankdev.us' => 'akshar@shyankdev.us' }
