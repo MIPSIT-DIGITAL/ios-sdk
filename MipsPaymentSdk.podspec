@@ -19,6 +19,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.swift_version = '5.9'
-  s.vendored_frameworks  = "MIPS_iOS_SDK.xcframework"
+  s.vendored_frameworks  = "MipsPaymentSdk.xcframework"
 
 end
