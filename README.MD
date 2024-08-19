@@ -7,7 +7,7 @@ this is the official SDK of MIPS payment gateway for iOS platform
 #### 1. Cocoapods
 
 ```ruby
-pod 'MIPS_iOS_SDK', :git => 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
+pod 'MipsPaymentSdk', :git => 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
 ```
 
 ## Prerequisite (will be provided MIPS Admin)
@@ -32,7 +32,7 @@ pod 'MIPS_iOS_SDK', :git => 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
 1. import MIPS_iOS_SDK
 
 ```swift
-import MIPS_iOS_SDK
+import MipsPaymentSdk
 ```
 
 2. create merchant detail model
