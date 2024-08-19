@@ -1,0 +1,11 @@
+framework module MipsPaymentSdk {
+  umbrella header "MipsPaymentSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module MipsPaymentSdk.Swift {
+  header "MipsPaymentSdk-Swift.h"
+  requires objc
+}

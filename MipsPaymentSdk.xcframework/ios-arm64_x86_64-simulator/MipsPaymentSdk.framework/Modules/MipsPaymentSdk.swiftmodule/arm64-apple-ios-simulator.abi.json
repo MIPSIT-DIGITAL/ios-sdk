@@ -1,0 +1,3206 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Currency",
+        "printedName": "Currency",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Mauritian_Rupee",
+            "printedName": "Mauritian_Rupee",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO15Mauritian_RupeeyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO15Mauritian_RupeeyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MipsPaymentSdk.Currency?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk8CurrencyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO8rawValueACSgSS_tcfc",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk8CurrencyO8rawValueSSvp",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO8rawValueSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk8CurrencyO8rawValueSSvg",
+                "mangledName": "$s14MipsPaymentSdk8CurrencyO8rawValueSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14MipsPaymentSdk8CurrencyO",
+        "mangledName": "$s14MipsPaymentSdk8CurrencyO",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MerchantDetails",
+        "printedName": "MerchantDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sIdMerchant",
+            "printedName": "sIdMerchant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC03sIdD0SSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC03sIdD0SSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC03sIdD0SSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC03sIdD0SSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "salt",
+            "printedName": "salt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC4saltSSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC4saltSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC4saltSSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC4saltSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sCipherKey",
+            "printedName": "sCipherKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC10sCipherKeySSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC10sCipherKeySSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC10sCipherKeySSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC10sCipherKeySSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id_entity",
+            "printedName": "id_entity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC9id_entitySSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC9id_entitySSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC9id_entitySSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC9id_entitySSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id_operator",
+            "printedName": "id_operator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC11id_operatorSSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC11id_operatorSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC11id_operatorSSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC11id_operatorSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operator_password",
+            "printedName": "operator_password",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC17operator_passwordSSvp",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC17operator_passwordSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC17operator_passwordSSvg",
+                "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC17operator_passwordSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sIdMerchant:salt:sCipherKey:id_entity:id_operator:operator_password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDetails",
+                "printedName": "MipsPaymentSdk.MerchantDetails",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk15MerchantDetailsC03sIdD04salt10sCipherKey9id_entity0J9_operator0L9_passwordACSS_S5Stcfc",
+            "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC03sIdD04salt10sCipherKey9id_entity0J9_operator0L9_passwordACSS_S5Stcfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk15MerchantDetailsC",
+        "mangledName": "$s14MipsPaymentSdk15MerchantDetailsC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MipsPaymentJSON",
+        "printedName": "MipsPaymentJSON",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MipsPaymentJSON",
+                "printedName": "MipsPaymentSdk.MipsPaymentJSON",
+                "usr": "s:14MipsPaymentSdk0aB4JSONC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk0aB4JSONC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14MipsPaymentSdk0aB4JSONC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk0aB4JSONC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14MipsPaymentSdk0aB4JSONC6encode2toys7Encoder_p_tKF",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk0aB4JSONC",
+        "mangledName": "$s14MipsPaymentSdk0aB4JSONC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogManager",
+        "printedName": "LogManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogManager",
+                "printedName": "MipsPaymentSdk.LogManager",
+                "usr": "s:14MipsPaymentSdk10LogManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk10LogManagerC6sharedACvpZ",
+            "mangledName": "$s14MipsPaymentSdk10LogManagerC6sharedACvpZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogManager",
+                    "printedName": "MipsPaymentSdk.LogManager",
+                    "usr": "s:14MipsPaymentSdk10LogManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk10LogManagerC6sharedACvgZ",
+                "mangledName": "$s14MipsPaymentSdk10LogManagerC6sharedACvgZ",
+                "moduleName": "MipsPaymentSdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk10LogManagerC4infoyySSF",
+            "mangledName": "$s14MipsPaymentSdk10LogManagerC4infoyySSF",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk10LogManagerC5erroryySSF",
+            "mangledName": "$s14MipsPaymentSdk10LogManagerC5erroryySSF",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk10LogManagerC",
+        "mangledName": "$s14MipsPaymentSdk10LogManagerC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkAdaptor",
+        "printedName": "NetworkAdaptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "checkPaymentStatus",
+            "printedName": "checkPaymentStatus(mipsNetworkURl:merchant:credentials:orderID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MipsNetworkUrls",
+                "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDetails",
+                "printedName": "MipsPaymentSdk.MerchantDetails",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantCredentials",
+                "printedName": "MipsPaymentSdk.MerchantCredentials",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk14NetworkAdaptorC05checkB6Status04mipsD3URl8merchant11credentials7orderIDSbAA0aD4UrlsV_AA15MerchantDetailsCAA0O11CredentialsCSStYaFZ",
+            "mangledName": "$s14MipsPaymentSdk14NetworkAdaptorC05checkB6Status04mipsD3URl8merchant11credentials7orderIDSbAA0aD4UrlsV_AA15MerchantDetailsCAA0O11CredentialsCSStYaFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentUrl",
+            "printedName": "getPaymentUrl(networkURL:merchant:credentials:amount:orderID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MipsNetworkUrls",
+                "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDetails",
+                "printedName": "MipsPaymentSdk.MerchantDetails",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantCredentials",
+                "printedName": "MipsPaymentSdk.MerchantCredentials",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Amount",
+                "printedName": "MipsPaymentSdk.Amount",
+                "usr": "s:14MipsPaymentSdk6AmountC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk14NetworkAdaptorC03getB3Url10networkURL8merchant11credentials6amount7orderID10Foundation0I0VSgAA0aD4UrlsV_AA15MerchantDetailsCAA0Q11CredentialsCAA6AmountCSStYaFZ",
+            "mangledName": "$s14MipsPaymentSdk14NetworkAdaptorC03getB3Url10networkURL8merchant11credentials6amount7orderID10Foundation0I0VSgAA0aD4UrlsV_AA15MerchantDetailsCAA0Q11CredentialsCAA6AmountCSStYaFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk14NetworkAdaptorC",
+        "mangledName": "$s14MipsPaymentSdk14NetworkAdaptorC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MerchantCredentials",
+        "printedName": "MerchantCredentials",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk19MerchantCredentialsC8usernameSSvp",
+            "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC8usernameSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC8usernameSSvg",
+                "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC8usernameSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "password",
+            "printedName": "password",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk19MerchantCredentialsC8passwordSSvp",
+            "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC8passwordSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC8passwordSSvg",
+                "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC8passwordSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(username:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantCredentials",
+                "printedName": "MipsPaymentSdk.MerchantCredentials",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk19MerchantCredentialsC8username8passwordACSS_SStcfc",
+            "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC8username8passwordACSS_SStcfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk19MerchantCredentialsC",
+        "mangledName": "$s14MipsPaymentSdk19MerchantCredentialsC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentMode",
+        "printedName": "PaymentMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instant",
+            "printedName": "instant",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.PaymentMode.Type) -> MipsPaymentSdk.PaymentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMode",
+                    "printedName": "MipsPaymentSdk.PaymentMode",
+                    "usr": "s:14MipsPaymentSdk0B4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.PaymentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMode",
+                        "printedName": "MipsPaymentSdk.PaymentMode",
+                        "usr": "s:14MipsPaymentSdk0B4ModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk0B4ModeO7instantyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO7instantyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "juice",
+            "printedName": "juice",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.PaymentMode.Type) -> MipsPaymentSdk.PaymentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMode",
+                    "printedName": "MipsPaymentSdk.PaymentMode",
+                    "usr": "s:14MipsPaymentSdk0B4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.PaymentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMode",
+                        "printedName": "MipsPaymentSdk.PaymentMode",
+                        "usr": "s:14MipsPaymentSdk0B4ModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk0B4ModeO5juiceyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO5juiceyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "bankTransfer",
+            "printedName": "bankTransfer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.PaymentMode.Type) -> MipsPaymentSdk.PaymentMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMode",
+                    "printedName": "MipsPaymentSdk.PaymentMode",
+                    "usr": "s:14MipsPaymentSdk0B4ModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.PaymentMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMode",
+                        "printedName": "MipsPaymentSdk.PaymentMode",
+                        "usr": "s:14MipsPaymentSdk0B4ModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk0B4ModeO12bankTransferyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO12bankTransferyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMode",
+                "printedName": "MipsPaymentSdk.PaymentMode",
+                "usr": "s:14MipsPaymentSdk0B4ModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMode",
+                "printedName": "MipsPaymentSdk.PaymentMode",
+                "usr": "s:14MipsPaymentSdk0B4ModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk0B4ModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk0B4ModeO9hashValueSivp",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO9hashValueSivp",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk0B4ModeO9hashValueSivg",
+                "mangledName": "$s14MipsPaymentSdk0B4ModeO9hashValueSivg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk0B4ModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14MipsPaymentSdk0B4ModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "MipsPaymentSdk",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14MipsPaymentSdk0B4ModeO",
+        "mangledName": "$s14MipsPaymentSdk0B4ModeO",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MipsPaymentPageDelegate",
+        "printedName": "MipsPaymentPageDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "successPayment",
+            "printedName": "successPayment(_:orderID:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MIPSViewController",
+                "printedName": "MipsPaymentSdk.MIPSViewController",
+                "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMode",
+                "printedName": "MipsPaymentSdk.PaymentMode",
+                "usr": "s:14MipsPaymentSdk0B4ModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk0aB12PageDelegateP07successB0_7orderID4modeyAA18MIPSViewControllerC_SSAA0B4ModeOtF",
+            "mangledName": "$s14MipsPaymentSdk0aB12PageDelegateP07successB0_7orderID4modeyAA18MIPSViewControllerC_SSAA0B4ModeOtF",
+            "moduleName": "MipsPaymentSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : MipsPaymentSdk.MipsPaymentPageDelegate>",
+            "sugared_genericSig": "<Self where Self : MipsPaymentSdk.MipsPaymentPageDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14MipsPaymentSdk0aB12PageDelegateP",
+        "mangledName": "$s14MipsPaymentSdk0aB12PageDelegateP",
+        "moduleName": "MipsPaymentSdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MIPSViewController",
+        "printedName": "MIPSViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MipsPaymentPageDelegate",
+                    "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate",
+                    "usr": "s:14MipsPaymentSdk0aB12PageDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvp",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MipsPaymentPageDelegate",
+                        "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate",
+                        "usr": "s:14MipsPaymentSdk0aB12PageDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvg",
+                "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MipsPaymentPageDelegate",
+                        "printedName": "MipsPaymentSdk.MipsPaymentPageDelegate",
+                        "usr": "s:14MipsPaymentSdk0aB12PageDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvs",
+                "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvs",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvM",
+                "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC8delegateAA0aB12PageDelegate_pSgvM",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(merchantDetails:credentials:amount:orderID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MIPSViewController",
+                "printedName": "MipsPaymentSdk.MIPSViewController",
+                "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDetails",
+                "printedName": "MipsPaymentSdk.MerchantDetails",
+                "usr": "s:14MipsPaymentSdk15MerchantDetailsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantCredentials",
+                "printedName": "MipsPaymentSdk.MerchantCredentials",
+                "usr": "s:14MipsPaymentSdk19MerchantCredentialsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Amount",
+                "printedName": "MipsPaymentSdk.Amount",
+                "usr": "s:14MipsPaymentSdk6AmountC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk18MIPSViewControllerC15merchantDetails11credentials6amount7orderIDAcA08MerchantG0C_AA0L11CredentialsCAA6AmountCSStcfc",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC15merchantDetails11credentials6amount7orderIDAcA08MerchantG0C_AA0L11CredentialsCAA6AmountCSStcfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MipsPaymentSdk.MIPSViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MIPSViewController",
+                    "printedName": "MipsPaymentSdk.MIPSViewController",
+                    "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController(im)initWithCoder:",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MipsPaymentSdk",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController(im)viewDidLoad",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC11viewDidLoadyyF",
+            "moduleName": "MipsPaymentSdk",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createPayment",
+            "printedName": "createPayment()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk18MIPSViewControllerC06createB0yyF",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC06createB0yyF",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@MipsPaymentSdk@objc(cs)MIPSViewController(im)webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC7webView_34runJavaScriptAlertPanelWithMessage16initiatedByFrame17completionHandlerySo05WKWebG0C_SSSo11WKFrameInfoCyyctF",
+            "moduleName": "MipsPaymentSdk",
+            "objc_name": "webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MipsPaymentSdk@objc(cs)MIPSViewController",
+        "mangledName": "$s14MipsPaymentSdk18MIPSViewControllerC",
+        "moduleName": "MipsPaymentSdk",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONCoder",
+        "printedName": "JSONCoder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decodeJson",
+            "printedName": "decodeJson(model:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0?, Swift.Error?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk9JSONCoderC10decodeJson5model4dataxSg_s5Error_pSgtxm_10Foundation4DataVtSeRzlFZ",
+            "mangledName": "$s14MipsPaymentSdk9JSONCoderC10decodeJson5model4dataxSg_s5Error_pSgtxm_10Foundation4DataVtSeRzlFZ",
+            "moduleName": "MipsPaymentSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encodeJso",
+            "printedName": "encodeJso(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data?, Swift.Error?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk9JSONCoderC9encodeJso4json10Foundation4DataVSg_s5Error_pSgtx_tSERzlFZ",
+            "mangledName": "$s14MipsPaymentSdk9JSONCoderC9encodeJso4json10Foundation4DataVSg_s5Error_pSgtx_tSERzlFZ",
+            "moduleName": "MipsPaymentSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encodeJson",
+            "printedName": "encodeJson(json:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data?, Swift.Error?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk9JSONCoderC10encodeJson4json10Foundation4DataVSg_s5Error_pSgtSDySSypG_tFZ",
+            "mangledName": "$s14MipsPaymentSdk9JSONCoderC10encodeJson4json10Foundation4DataVSg_s5Error_pSgtSDySSypG_tFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeJson",
+            "printedName": "decodeJson(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "([Swift.String : Any], Swift.Error?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk9JSONCoderC10decodeJson4dataSDySSypG_s5Error_pSgt10Foundation4DataV_tFZ",
+            "mangledName": "$s14MipsPaymentSdk9JSONCoderC10decodeJson4dataSDySSypG_s5Error_pSgt10Foundation4DataV_tFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk9JSONCoderC",
+        "mangledName": "$s14MipsPaymentSdk9JSONCoderC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpHandler",
+        "printedName": "HttpHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Foundation.Data?, Swift.Error?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MipsPaymentSdk11HttpHandlerC7requesty10Foundation4DataVSg_s5Error_pSgtAE10URLRequestVYaFZ",
+            "mangledName": "$s14MipsPaymentSdk11HttpHandlerC7requesty10Foundation4DataVSg_s5Error_pSgtAE10URLRequestVYaFZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk11HttpHandlerC",
+        "mangledName": "$s14MipsPaymentSdk11HttpHandlerC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Amount",
+        "printedName": "Amount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "currency",
+            "printedName": "currency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "MipsPaymentSdk.Currency",
+                "usr": "s:14MipsPaymentSdk8CurrencyO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk6AmountC8currencyAA8CurrencyOvp",
+            "mangledName": "$s14MipsPaymentSdk6AmountC8currencyAA8CurrencyOvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk6AmountC8currencyAA8CurrencyOvg",
+                "mangledName": "$s14MipsPaymentSdk6AmountC8currencyAA8CurrencyOvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk6AmountC5priceSivp",
+            "mangledName": "$s14MipsPaymentSdk6AmountC5priceSivp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk6AmountC5priceSivg",
+                "mangledName": "$s14MipsPaymentSdk6AmountC5priceSivg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currency:price:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Amount",
+                "printedName": "MipsPaymentSdk.Amount",
+                "usr": "s:14MipsPaymentSdk6AmountC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "MipsPaymentSdk.Currency",
+                "usr": "s:14MipsPaymentSdk8CurrencyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sitcfc",
+            "mangledName": "$s14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sitcfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MipsPaymentSdk6AmountC",
+        "mangledName": "$s14MipsPaymentSdk6AmountC",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MipsNetworkUrls",
+        "printedName": "MipsNetworkUrls",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURl",
+            "printedName": "baseURl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV7baseURlSSvp",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV7baseURlSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV7baseURlSSvg",
+                "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV7baseURlSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentConfirmationUrl",
+            "printedName": "paymentConfirmationUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV22paymentConfirmationUrlSSvp",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV22paymentConfirmationUrlSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV22paymentConfirmationUrlSSvg",
+                "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV22paymentConfirmationUrlSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentUrlGenerator",
+            "printedName": "paymentUrlGenerator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV19paymentUrlGeneratorSSvp",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV19paymentUrlGeneratorSSvp",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV19paymentUrlGeneratorSSvg",
+                "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV19paymentUrlGeneratorSSvg",
+                "moduleName": "MipsPaymentSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURl:paymentConfirmationUrl:paymentUrlGenerator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MipsNetworkUrls",
+                "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV7baseURl22paymentConfirmationUrl0hJ9GeneratorACSS_S2Stcfc",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV7baseURl22paymentConfirmationUrl0hJ9GeneratorACSS_S2Stcfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MipsNetworkUrls",
+                "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsVACycfc",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsVACycfc",
+            "moduleName": "MipsPaymentSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultUrls",
+            "printedName": "defaultUrls",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MipsNetworkUrls",
+                "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV07defaultE0ACvpZ",
+            "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV07defaultE0ACvpZ",
+            "moduleName": "MipsPaymentSdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MipsNetworkUrls",
+                    "printedName": "MipsPaymentSdk.MipsNetworkUrls",
+                    "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV07defaultE0ACvgZ",
+                "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV07defaultE0ACvgZ",
+                "moduleName": "MipsPaymentSdk",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14MipsPaymentSdk0A11NetworkUrlsV",
+        "mangledName": "$s14MipsPaymentSdk0A11NetworkUrlsV",
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 5,
+      "value": "\"MUR\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 5,
+      "value": "\"MUR\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 2,
+      "value": "99"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 296,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/LogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 15,
+      "value": "\"☘️ \""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/LogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/LogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 13,
+      "value": "\"🚨 \""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/LogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 12,
+      "value": "\"authentify\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 13,
+      "value": "\"id_merchant\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 11,
+      "value": "\"id_entity\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 13,
+      "value": "\"id_operator\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 19,
+      "value": "\"operator_password\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 13,
+      "value": "\"instruction\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 20,
+      "value": "\"get_order_all_data\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 7,
+      "value": "\"order\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 768,
+      "length": 10,
+      "value": "\"id_order\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 107,
+      "value": "\"Basic \""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1590,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1809,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 14,
+      "value": "\"order_status\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1970,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2192,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2204,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2408,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2704,
+      "length": 12,
+      "value": "\"authentify\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2737,
+      "length": 13,
+      "value": "\"id_merchant\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 11,
+      "value": "\"id_entity\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 13,
+      "value": "\"id_operator\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2898,
+      "length": 19,
+      "value": "\"operator_password\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 7,
+      "value": "\"order\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3003,
+      "length": 10,
+      "value": "\"id_order\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3042,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3098,
+      "length": 8,
+      "value": "\"amount\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3150,
+      "length": 17,
+      "value": "\"iframe_behavior\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "Dictionary",
+      "offset": 3170,
+      "length": 97,
+      "value": "[(\"custom_redirection_url\", \"\"), (\"language\", \"EN\")]"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3282,
+      "length": 14,
+      "value": "\"request_mode\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3299,
+      "length": 8,
+      "value": "\"simple\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 12,
+      "value": "\"touchpoint\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3337,
+      "length": 12,
+      "value": "\"native_app\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3710,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3738,
+      "length": 107,
+      "value": "\"Basic \""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3844,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3867,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 4337,
+      "length": 8,
+      "value": "\"answer\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 4411,
+      "length": 18,
+      "value": "\"operation_status\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 4491,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 4561,
+      "length": 19,
+      "value": "\"payment_zone_data\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/NetworkAdaptor.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 27,
+      "value": "\"unable to get payment url\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3782,
+      "length": 26,
+      "value": "\"App moved to foreground!\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 30,
+      "value": "\"app moved to background mode\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5611,
+      "length": 24,
+      "value": "\"bckground task expired\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6414,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6527,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6683,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6946,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7054,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7159,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7264,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7705,
+      "length": 42,
+      "value": "\"message from mips web page -> \""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7746,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7785,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7884,
+      "length": 15,
+      "value": "\"success_juice\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7995,
+      "length": 23,
+      "value": "\"success_bank_transfer\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/JSONCoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
+      "length": 34,
+      "value": "\"json not in dictionary structure\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/JSONCoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/JSONCoder.swift",
+      "kind": "Dictionary",
+      "offset": 1338,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Utils\/JSONCoder.swift",
+      "kind": "Dictionary",
+      "offset": 1439,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 17,
+      "value": "\"bad status code\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 721,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 858,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 864,
+      "length": 3,
+      "value": "299"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 994,
+      "length": 49,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 6,
+      "value": "\" status code got from network call\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1232,
+      "length": 37,
+      "value": "\"empty body got from network request\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Networking\/HttpHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1277,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsNetworkUrls.swift",
+      "kind": "StringLiteral",
+      "offset": 591,
+      "length": 34,
+      "value": "\"https:\/\/go.mips.mu\/mipsit.php?c=\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsNetworkUrls.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 43,
+      "value": "\"https:\/\/api.mips.mu\/api\/orders_management\""
+    },
+    {
+      "filePath": "\/Users\/shyank\/work\/MIPS\/iOS_SDK\/iOS_sdk_source_code\/MipsPaymentSdk\/MipsPaymentSdk\/Sources\/Models\/MipsNetworkUrls.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 42,
+      "value": "\"https:\/\/my.mips.mu\/api\/load_payment_zone\""
+    }
+  ]
+}
