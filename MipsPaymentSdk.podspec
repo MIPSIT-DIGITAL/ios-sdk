@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MipsPaymentSdk'
-  s.version          = '0.7.4'
+  s.version          = '0.7.5'
   s.summary          = 'official iOS SDK for MIPS paymemnt services'
 
   s.description      = <<-DESC
