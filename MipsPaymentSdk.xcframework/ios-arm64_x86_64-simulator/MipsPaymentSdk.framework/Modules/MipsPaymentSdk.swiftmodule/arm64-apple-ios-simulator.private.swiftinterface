@@ -1,37 +1,32 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MipsPaymentSdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MipsPaymentSdk
+import DeveloperToolsSupport
 import Foundation
 @_exported import MipsPaymentSdk
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum Currency : Swift.String {
-  case Mauritian_Rupee
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public class MerchantDetails {
   final public let sIdMerchant: Swift.String
-  final public let salt: Swift.String
-  final public let sCipherKey: Swift.String
   final public let id_entity: Swift.String
   final public let id_operator: Swift.String
   final public let operator_password: Swift.String
-  public init(sIdMerchant: Swift.String, salt: Swift.String, sCipherKey: Swift.String, id_entity: Swift.String, id_operator: Swift.String, operator_password: Swift.String)
+  public init(sIdMerchant: Swift.String, id_entity: Swift.String, id_operator: Swift.String, operator_password: Swift.String)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class MipsPaymentJSON : Swift.Codable {
+@_hasMissingDesignatedInitializers public class NetworkAdaptor {
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func checkPaymentStatus(mipsNetworkURl: MipsPaymentSdk.MipsNetworkUrls, merchant: MipsPaymentSdk.MerchantDetails, credentials: MipsPaymentSdk.MerchantCredentials, orderID: Swift.String) async -> (Swift.Bool, MipsPaymentSdk.PaymentMode?)
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func getPaymentUrl(networkURL: MipsPaymentSdk.MipsNetworkUrls, merchant: MipsPaymentSdk.MerchantDetails, credentials: MipsPaymentSdk.MerchantCredentials, amount: MipsPaymentSdk.Amount, orderID: Swift.String) async -> Foundation.URL?
+  #endif
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class LogManager {
   public static let shared: MipsPaymentSdk.LogManager
@@ -39,33 +34,27 @@ public class MerchantDetails {
   final public func error(_ msg: Swift.String)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class NetworkAdaptor {
-  #if compiler(>=5.3) && $AsyncAwait
-  public static func checkPaymentStatus(mipsNetworkURl: MipsPaymentSdk.MipsNetworkUrls, merchant: MipsPaymentSdk.MerchantDetails, credentials: MipsPaymentSdk.MerchantCredentials, orderID: Swift.String) async -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public static func getPaymentUrl(networkURL: MipsPaymentSdk.MipsNetworkUrls, merchant: MipsPaymentSdk.MerchantDetails, credentials: MipsPaymentSdk.MerchantCredentials, amount: MipsPaymentSdk.Amount, orderID: Swift.String) async -> Foundation.URL?
-  #endif
+@_hasMissingDesignatedInitializers public class JSONCoder {
+  public static func decodeJson<T>(model: T.Type, data: Foundation.Data) -> (T?, (any Swift.Error)?) where T : Swift.Decodable
+  public static func encodeJso<T>(json: T) -> (Foundation.Data?, (any Swift.Error)?) where T : Swift.Encodable
+  public static func encodeJson(json: [Swift.String : Any]) -> (Foundation.Data?, (any Swift.Error)?)
+  public static func decodeJson(data: Foundation.Data) -> ([Swift.String : Any], (any Swift.Error)?)
   @objc deinit
 }
-public class MerchantCredentials {
-  final public let username: Swift.String
-  final public let password: Swift.String
-  public init(username: Swift.String, password: Swift.String)
+public class Amount {
+  final public let currency: MipsPaymentSdk.Currency
+  final public let price: Swift.Int
+  public init(currency: MipsPaymentSdk.Currency, price: Swift.Int)
   @objc deinit
 }
-public enum PaymentMode {
-  case instant
-  case juice
-  case bankTransfer
-  public static func == (a: MipsPaymentSdk.PaymentMode, b: MipsPaymentSdk.PaymentMode) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+@_hasMissingDesignatedInitializers public class MipsPaymentJSON : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol MipsPaymentPageDelegate : AnyObject {
   func successPayment(_ sender: MipsPaymentSdk.MIPSViewController, orderID: Swift.String, mode: MipsPaymentSdk.PaymentMode)
+  func failurePayment(_ sender: MipsPaymentSdk.MIPSViewController, orderID: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class MIPSViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var delegate: (any MipsPaymentSdk.MipsPaymentPageDelegate)?
@@ -78,25 +67,6 @@ public protocol MipsPaymentPageDelegate : AnyObject {
 extension MipsPaymentSdk.MIPSViewController : WebKit.WKNavigationDelegate, WebKit.WKUIDelegate {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, runJavaScriptAlertPanelWithMessage message: Swift.String, initiatedByFrame frame: WebKit.WKFrameInfo, completionHandler: @escaping () -> Swift.Void)
 }
-@_hasMissingDesignatedInitializers public class JSONCoder {
-  public static func decodeJson<T>(model: T.Type, data: Foundation.Data) -> (T?, (any Swift.Error)?) where T : Swift.Decodable
-  public static func encodeJso<T>(json: T) -> (Foundation.Data?, (any Swift.Error)?) where T : Swift.Encodable
-  public static func encodeJson(json: [Swift.String : Any]) -> (Foundation.Data?, (any Swift.Error)?)
-  public static func decodeJson(data: Foundation.Data) -> ([Swift.String : Any], (any Swift.Error)?)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class HttpHandler {
-  #if compiler(>=5.3) && $AsyncAwait
-  public static func request(_ req: Foundation.URLRequest) async -> (Foundation.Data?, (any Swift.Error)?)
-  #endif
-  @objc deinit
-}
-public class Amount {
-  final public let currency: MipsPaymentSdk.Currency
-  final public let price: Swift.Int
-  public init(currency: MipsPaymentSdk.Currency, price: Swift.Int)
-  @objc deinit
-}
 public struct MipsNetworkUrls {
   public let baseURl: Swift.String
   public let paymentConfirmationUrl: Swift.String
@@ -105,8 +75,57 @@ public struct MipsNetworkUrls {
   public init()
   public static let defaultUrls: MipsPaymentSdk.MipsNetworkUrls
 }
+@_hasMissingDesignatedInitializers public class HttpHandler {
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func request(_ req: Foundation.URLRequest) async -> (Foundation.Data?, (any Swift.Error)?)
+  #endif
+  @objc deinit
+}
+public enum Currency : Swift.String {
+  case Mauritian_Rupee
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class MerchantCredentials {
+  final public let username: Swift.String
+  final public let password: Swift.String
+  public init(username: Swift.String, password: Swift.String)
+  @objc deinit
+}
+public enum ImgName : Swift.String {
+  case mipsLogo
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class ImgManager {
+  public static func getImg(_ name: MipsPaymentSdk.ImgName) -> UIKit.UIImage
+  @objc deinit
+}
+public enum PaymentMode {
+  case card
+  case juice
+  case transfer
+  case myTMoney
+  case paypal
+  case pop
+  case blink
+  public static func == (a: MipsPaymentSdk.PaymentMode, b: MipsPaymentSdk.PaymentMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension MipsPaymentSdk.Currency : Swift.Equatable {}
 extension MipsPaymentSdk.Currency : Swift.Hashable {}
 extension MipsPaymentSdk.Currency : Swift.RawRepresentable {}
+extension MipsPaymentSdk.ImgName : Swift.Equatable {}
+extension MipsPaymentSdk.ImgName : Swift.Hashable {}
+extension MipsPaymentSdk.ImgName : Swift.RawRepresentable {}
 extension MipsPaymentSdk.PaymentMode : Swift.Equatable {}
 extension MipsPaymentSdk.PaymentMode : Swift.Hashable {}

@@ -16,11 +16,9 @@ pod 'MipsPaymentSdk', :git => 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
 
 1. sIdMerchant
 2. sIdForm
-3. salt
-4. sCipherKey
-5. id_entity
-6. id_operator
-7. operator_password
+3. id_entity
+4. id_operator
+5. operator_password
 
 #### b. Merchant credentials
 
@@ -41,10 +39,6 @@ import MipsPaymentSdk
 let merchantDetails : MerchantDetails = .init(
 
             sIdMerchant: "YOUR_MERCHANT_ID",
-
-            salt: "YOUR_SALT",
-
-            sCipherKey: "YOUR_CIPHER_KEY",
 
             id_entity: "YOUR_ID_ENTITY",
 
