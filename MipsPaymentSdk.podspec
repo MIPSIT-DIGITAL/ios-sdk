@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary          = 'official iOS SDK for MIPS paymemnt services'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    official iOS SDK for MIPS paymemnt services
                        DESC
 
   s.homepage         = 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
