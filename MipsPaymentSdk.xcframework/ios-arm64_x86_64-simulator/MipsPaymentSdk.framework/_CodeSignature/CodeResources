@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2JhpKxJ1rail06zcl+zKCtsnklY=
+		P3ozzv9BVTup1eQdowiFYNMWLEk=
 		</data>
 		<key>Headers/MipsPaymentSdk-Swift.h</key>
 		<data>
-		TUCNVakkFIKkLiCEJJu7mzuVK3s=
+		0fjDEINxzIk6YHCoaWzsYZUdmds=
 		</data>
 		<key>Headers/MipsPaymentSdk.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Tp1b0/HpipLXLGsRYqIWeSgV0XM=
+		hJ/zqNIR4qBmOir7YrG/erRQTec=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		F0JLMECDIBuQTaa2D3IoA9mf08s=
+		6O2v6cdcWWuMRCKbnEAWiqCAdac=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BC2T0cQq4/RGrEPlIW7B3x/m1xY=
+		98BKikD6UGZ+Jzw/GCgaXP7mLlI=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		V9LkdJF4U4HfmoIdstPkQLP4GfU=
+		xVFvah86kzaM8oos2em1ag3GvBI=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BC2T0cQq4/RGrEPlIW7B3x/m1xY=
+		98BKikD6UGZ+Jzw/GCgaXP7mLlI=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+K0wJF8OFj9nWn8xmH4NTx959Fg=
+		qQ1yQGgzl802HZDGuL7VLCMcnk8=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		F0JLMECDIBuQTaa2D3IoA9mf08s=
+		6O2v6cdcWWuMRCKbnEAWiqCAdac=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S6A8yFW5RhRAJyaNG4n2qzygshQ=
+		Y2yULJiW2rDg7SzAd/8a+UGImLI=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FuYk2i7jWByGIpDL3r607cheMTY=
+		0JxV31HPsZO6R+6QmD6wgZ3OwXs=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S6A8yFW5RhRAJyaNG4n2qzygshQ=
+		Y2yULJiW2rDg7SzAd/8a+UGImLI=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cg6P6zFgWk7NEC+0KPuRRtwN0EM=
+		SmSEp70XqTPICU49VtI7YTXgapM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K9xiya65J21YrJHKr04zTCt8bD9A9XtS0qo13DApsEg=
+			ce/Q4KCAALMLvQqIKuzg53fdiYc7nV7VduBIgwySpao=
 			</data>
 		</dict>
 		<key>Headers/MipsPaymentSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IDq+eKhPUYsWgYIC2LyJi6H9MYMwTTA3o4VpKs5ekTU=
+			O+rM4MLsw6ZfB3WlwNPulcdwHVuRKmkczOP2+o3tbKI=
 			</data>
 		</dict>
 		<key>Headers/MipsPaymentSdk.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nY9DchnH0a13TDeKZlRhkLOeVIDtEMmqVB31+oXfFt0=
+			ZlCdk9Ud9wx+90Q0AJymhTt7vYu7VdBM+JY+fXizGbI=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDX6TukB8D3KnLJsKoEc0PHOKWvMBFwIj1SQqJ4wAyE=
+			cUm5IXB9zFzHZZqI3BCuk9Fry9r6DHbzl20m4ND1j04=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S1EztCNuapWThZU9gQdQsBDCHdD1TM+3rro0OewiPpA=
+			2/iqBdEkGhhcNbyNmzbt0kFLq7gOIBAHLlaRmy8kZTk=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDX6TukB8D3KnLJsKoEc0PHOKWvMBFwIj1SQqJ4wAyE=
+			cUm5IXB9zFzHZZqI3BCuk9Fry9r6DHbzl20m4ND1j04=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			szNlvTdWiU1HMm1XvALhw9T/VRuRiyDTLg/b2JqGKCo=
+			Q3Hpc7G64HgR5z9M5rJARYFk8rCdZ+kHMmOfF0Oyijk=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nY9DchnH0a13TDeKZlRhkLOeVIDtEMmqVB31+oXfFt0=
+			ZlCdk9Ud9wx+90Q0AJymhTt7vYu7VdBM+JY+fXizGbI=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7h46grKMfxz3j9IBsQAQmQe+B6kPFxQts++isO9wNA8=
+			ClmAYgMKf2bCZ0KlFEK8TD31tx+7RHOQ8xyHnBcs8O8=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k+8EzWe1M0c36oeyzxflYt/OJOyVg0K7nRADQNRloCM=
+			YuGqa9snjCWum54SnfViQpZ/OI3mJyCDlGu4YXfsMBc=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7h46grKMfxz3j9IBsQAQmQe+B6kPFxQts++isO9wNA8=
+			ClmAYgMKf2bCZ0KlFEK8TD31tx+7RHOQ8xyHnBcs8O8=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kD7bt4EN4jrj/02mOGmp/z4yxBgp1EdMEr/QyU1joUc=
+			HAIrruxZK1ibDZff2RIFPIzezH5qGiKyPK3wZK4GEUo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
