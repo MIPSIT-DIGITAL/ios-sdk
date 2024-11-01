@@ -15,10 +15,9 @@ pod 'MipsPaymentSdk', :git => 'https://github.com/MIPSIT-DIGITAL/ios-sdk'
 #### a. Merchant details
 
 1. sIdMerchant
-2. sIdForm
-3. id_entity
-4. id_operator
-5. operator_password
+2. id_entity
+3. id_operator
+4. operator_password
 
 #### b. Merchant credentials
 
