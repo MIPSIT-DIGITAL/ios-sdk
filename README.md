@@ -35,29 +35,22 @@ import MipsPaymentSdk
 2. create merchant detail model
 
 ```swift
-let merchantDetails : MerchantDetails = .init(
+let merchantDetails: MerchantDetails = .init(
+    sIdMerchant: "YOUR_MERCHANT_ID",
+    id_entity: "YOUR_ID_ENTITY",
+    id_operator: "YOUR_ID_OPERATOR",
+    operator_password: "YOUR_OPERATOR_PASSWORD"
+)
 
-            sIdMerchant: "YOUR_MERCHANT_ID",
-
-            id_entity: "YOUR_ID_ENTITY",
-
-            id_operator: "YOUR_ID_OPERATOR",
-
-            operator_password: "YOUR_OPERATOR_PASSWORD"
-
-        )
 ```
 
 3. create merchant credential model
 
 ```swift
- let credential : MerchantCredentials = .init(
-
-            username: "YOUR_USERNAME" ,
-
-            password: "YOUR_PASSWORD"
-
-        )
+ let credential: MerchantCredentials = .init(
+    username: "YOUR_USERNAME",
+    password: "YOUR_PASSWORD"
+)
 ```
 
 4. take order ID and order amount
@@ -71,19 +64,16 @@ let amount : Amount = .init(currency: .Mauritian_Rupee, price: 100)
 5. Create payment page screen
 
 ```swift
-  let paymentPage : MIPSViewController = .init(
+let paymentPage: MIPSViewController = .init(
+    merchantDetails: merchantDetails,
+    credentials: credential,
+    amount: amount,
+    orderID: orderID
+)
 
-            merchantDetails: merchantDetails,
+// To track payment status, conform to `MipsPaymentPageDelegate` and set it as the delegate
+paymentPage.delegate = self
 
-            credentials: credential,
-
-            amount: amount,
-
-            orderID: orderID
-
-        )
- // to track payment status conform to MipsPaymentPageDelegate protocol and make your class delegate to paymet page
- paymentPage.delegate = self
 ```
 
 7. Show payment page and start payment transaction
@@ -106,19 +96,20 @@ self.present(
 
 class ViewController: UIViewController, MipsPaymentPageDelegate {
 
-	func successPayment(
-	    _ sender: MIPS_iOS_SDK.MIPSViewController,
-	    orderID: String,
-		mode: MIPS_iOS_SDK.PaymentMode
-		){
-			// payment is completed,
-			DispatchQueue.main.async { // switch to main thread for ui operation
-			    sender.dismiss(animated: true) { // remove payment page,
-				    // handle the flow as payment is completed and
-				    // payment page is removed now
-			    }
-			}
-		}
+    func successPayment(
+        _ sender: MIPS_iOS_SDK.MIPSViewController,
+        orderID: String,
+        mode: MIPS_iOS_SDK.PaymentMode
+    ) {
+        // Payment is completed
+        DispatchQueue.main.async {
+            sender.dismiss(animated: true) {
+                // Handle post-payment flow here
+            }
+        }
+    }
+}
+
 }
 ```
 

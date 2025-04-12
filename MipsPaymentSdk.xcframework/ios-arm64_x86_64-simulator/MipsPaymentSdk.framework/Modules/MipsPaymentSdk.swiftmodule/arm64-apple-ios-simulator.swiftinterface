@@ -40,18 +40,13 @@ public class MerchantDetails {
 }
 public class Amount {
   final public let currency: MipsPaymentSdk.Currency
-  final public let price: Swift.Int
-  public init(currency: MipsPaymentSdk.Currency, price: Swift.Int)
+  final public let price: Swift.Double
+  public init(currency: MipsPaymentSdk.Currency, price: Swift.Double)
   @objc deinit
-}
-@_hasMissingDesignatedInitializers public class MipsPaymentJSON : Swift.Codable {
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol MipsPaymentPageDelegate : AnyObject {
   func successPayment(_ sender: MipsPaymentSdk.MIPSViewController, orderID: Swift.String, mode: MipsPaymentSdk.PaymentMode)
-  func failurePayment(_ sender: MipsPaymentSdk.MIPSViewController, orderID: Swift.String)
+  func failurePayment(_ sender: MipsPaymentSdk.MIPSViewController, orderID: Swift.String, error: any Swift.Error)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class MIPSViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var delegate: (any MipsPaymentSdk.MipsPaymentPageDelegate)?
@@ -78,6 +73,18 @@ public struct MipsNetworkUrls {
 }
 public enum Currency : Swift.String {
   case Mauritian_Rupee
+  case US_Dollar
+  case Euro
+  case Malagasy_Ariary
+  case British_Pound
+  case Australian_Dollar
+  case South_African_Rand
+  case Seychellois_Rupee
+  case UAE_Dirham
+  case Japanese_Yen
+  case West_African_CFA_Franc
+  case Central_African_CFA_Franc
+  case Guinean_Franc
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

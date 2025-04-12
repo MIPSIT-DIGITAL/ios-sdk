@@ -18,15 +18,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hJ/zqNIR4qBmOir7YrG/erRQTec=
+		+7+1N3PVQR+atP+zoiLpAI9BFes=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6O2v6cdcWWuMRCKbnEAWiqCAdac=
+		zBVAGv84K//NH1QuXi/Cz8lDCds=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		98BKikD6UGZ+Jzw/GCgaXP7mLlI=
+		4WRYAAWzlHkI3Gv5F9PJKGvdvoY=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		98BKikD6UGZ+Jzw/GCgaXP7mLlI=
+		4WRYAAWzlHkI3Gv5F9PJKGvdvoY=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qQ1yQGgzl802HZDGuL7VLCMcnk8=
+		wcQGwy7MvHWND1YWcpcw45BONso=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6O2v6cdcWWuMRCKbnEAWiqCAdac=
+		zBVAGv84K//NH1QuXi/Cz8lDCds=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y2yULJiW2rDg7SzAd/8a+UGImLI=
+		Js6HQM7p3luVXstMwfdDP4w8CM0=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,15 +54,19 @@
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y2yULJiW2rDg7SzAd/8a+UGImLI=
+		Js6HQM7p3luVXstMwfdDP4w8CM0=
 		</data>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SmSEp70XqTPICU49VtI7YTXgapM=
+		NX203+o0DCtxep9XvTqDJsnE6rE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		wlUdO0T5Hgl6ATD/t8KikMguYqQ=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		F6mYXr6EQZyLKcQNM0vmTGcGMns=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -92,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZlCdk9Ud9wx+90Q0AJymhTt7vYu7VdBM+JY+fXizGbI=
+			x9viF/Z2Az+NZy6zWV2I9TbvEKvVyK0917gCo+g6ijE=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cUm5IXB9zFzHZZqI3BCuk9Fry9r6DHbzl20m4ND1j04=
+			jMENAoaeUs1b8Y+fp+6kyJvJkEXYh2e7/PP17BgPXj8=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -113,28 +117,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cUm5IXB9zFzHZZqI3BCuk9Fry9r6DHbzl20m4ND1j04=
+			jMENAoaeUs1b8Y+fp+6kyJvJkEXYh2e7/PP17BgPXj8=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q3Hpc7G64HgR5z9M5rJARYFk8rCdZ+kHMmOfF0Oyijk=
+			KEb8LtI0x39gMN+RYsuHDgRzEZrOgjhfsdqMfIHCENI=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZlCdk9Ud9wx+90Q0AJymhTt7vYu7VdBM+JY+fXizGbI=
+			x9viF/Z2Az+NZy6zWV2I9TbvEKvVyK0917gCo+g6ijE=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ClmAYgMKf2bCZ0KlFEK8TD31tx+7RHOQ8xyHnBcs8O8=
+			SkENMqz0RHUEx9s48xWBS83fFhdmnjKtjBy9LnUKKlo=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -148,14 +152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ClmAYgMKf2bCZ0KlFEK8TD31tx+7RHOQ8xyHnBcs8O8=
+			SkENMqz0RHUEx9s48xWBS83fFhdmnjKtjBy9LnUKKlo=
 			</data>
 		</dict>
 		<key>Modules/MipsPaymentSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HAIrruxZK1ibDZff2RIFPIzezH5qGiKyPK3wZK4GEUo=
+			ayV676tY3kKe+jYcxFQlnC8fST0IDvpgWiImklcpmik=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -163,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			D6bvPrqpUAqkhLkQBSXHnRJ4HJp51z+qI2KbdKldGRE=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
 			</data>
 		</dict>
 	</dict>

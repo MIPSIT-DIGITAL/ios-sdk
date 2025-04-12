@@ -983,14 +983,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:14MipsPaymentSdk6AmountC5priceSivp",
-            "mangledName": "$s14MipsPaymentSdk6AmountC5priceSivp",
+            "usr": "s:14MipsPaymentSdk6AmountC5priceSdvp",
+            "mangledName": "$s14MipsPaymentSdk6AmountC5priceSdvp",
             "moduleName": "MipsPaymentSdk",
             "declAttributes": [
               "Final",
@@ -1007,14 +1007,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:14MipsPaymentSdk6AmountC5priceSivg",
-                "mangledName": "$s14MipsPaymentSdk6AmountC5priceSivg",
+                "usr": "s:14MipsPaymentSdk6AmountC5priceSdvg",
+                "mangledName": "$s14MipsPaymentSdk6AmountC5priceSdvg",
                 "moduleName": "MipsPaymentSdk",
                 "implicit": true,
                 "declAttributes": [
@@ -1043,14 +1043,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sitcfc",
-            "mangledName": "$s14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sitcfc",
+            "usr": "s:14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sdtcfc",
+            "mangledName": "$s14MipsPaymentSdk6AmountC8currency5priceAcA8CurrencyO_Sdtcfc",
             "moduleName": "MipsPaymentSdk",
             "declAttributes": [
               "AccessControl"
@@ -1084,115 +1084,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MipsPaymentSdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MipsPaymentJSON",
-        "printedName": "MipsPaymentJSON",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MipsPaymentJSON",
-                "printedName": "MipsPaymentSdk.MipsPaymentJSON",
-                "usr": "s:14MipsPaymentSdk0aB4JSONC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:14MipsPaymentSdk0aB4JSONC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s14MipsPaymentSdk0aB4JSONC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "MipsPaymentSdk",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:14MipsPaymentSdk0aB4JSONC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s14MipsPaymentSdk0aB4JSONC6encode2toys7Encoder_p_tKF",
-            "moduleName": "MipsPaymentSdk",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:14MipsPaymentSdk0aB4JSONC",
-        "mangledName": "$s14MipsPaymentSdk0aB4JSONC",
-        "moduleName": "MipsPaymentSdk",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1206,7 +1097,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "MipsPaymentSdk"
+        "moduleName": "MipsPaymentSdk",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1255,7 +1149,7 @@
           {
             "kind": "Function",
             "name": "failurePayment",
-            "printedName": "failurePayment(_:orderID:)",
+            "printedName": "failurePayment(_:orderID:error:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1273,11 +1167,17 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14MipsPaymentSdk0aB12PageDelegateP07failureB0_7orderIDyAA18MIPSViewControllerC_SStF",
-            "mangledName": "$s14MipsPaymentSdk0aB12PageDelegateP07failureB0_7orderIDyAA18MIPSViewControllerC_SStF",
+            "usr": "s:14MipsPaymentSdk0aB12PageDelegateP07failureB0_7orderID5erroryAA18MIPSViewControllerC_SSs5Error_ptF",
+            "mangledName": "$s14MipsPaymentSdk0aB12PageDelegateP07failureB0_7orderID5erroryAA18MIPSViewControllerC_SSs5Error_ptF",
             "moduleName": "MipsPaymentSdk",
             "genericSig": "<τ_0_0 where τ_0_0 : MipsPaymentSdk.MipsPaymentPageDelegate>",
             "sugared_genericSig": "<Self where Self : MipsPaymentSdk.MipsPaymentPageDelegate>",
@@ -2158,6 +2058,450 @@
             "declKind": "EnumElement",
             "usr": "s:14MipsPaymentSdk8CurrencyO15Mauritian_RupeeyA2CmF",
             "mangledName": "$s14MipsPaymentSdk8CurrencyO15Mauritian_RupeeyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "US_Dollar",
+            "printedName": "US_Dollar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO9US_DollaryA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO9US_DollaryA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Euro",
+            "printedName": "Euro",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO4EuroyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO4EuroyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Malagasy_Ariary",
+            "printedName": "Malagasy_Ariary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO15Malagasy_AriaryyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO15Malagasy_AriaryyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "British_Pound",
+            "printedName": "British_Pound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO13British_PoundyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO13British_PoundyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Australian_Dollar",
+            "printedName": "Australian_Dollar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO17Australian_DollaryA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO17Australian_DollaryA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "South_African_Rand",
+            "printedName": "South_African_Rand",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO18South_African_RandyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO18South_African_RandyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Seychellois_Rupee",
+            "printedName": "Seychellois_Rupee",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO17Seychellois_RupeeyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO17Seychellois_RupeeyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "UAE_Dirham",
+            "printedName": "UAE_Dirham",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO10UAE_DirhamyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO10UAE_DirhamyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Japanese_Yen",
+            "printedName": "Japanese_Yen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO12Japanese_YenyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO12Japanese_YenyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "West_African_CFA_Franc",
+            "printedName": "West_African_CFA_Franc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO22West_African_CFA_FrancyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO22West_African_CFA_FrancyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Central_African_CFA_Franc",
+            "printedName": "Central_African_CFA_Franc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO25Central_African_CFA_FrancyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO25Central_African_CFA_FrancyA2CmF",
+            "moduleName": "MipsPaymentSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "Guinean_Franc",
+            "printedName": "Guinean_Franc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MipsPaymentSdk.Currency.Type) -> MipsPaymentSdk.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "MipsPaymentSdk.Currency",
+                    "usr": "s:14MipsPaymentSdk8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MipsPaymentSdk.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "MipsPaymentSdk.Currency",
+                        "usr": "s:14MipsPaymentSdk8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MipsPaymentSdk8CurrencyO13Guinean_FrancyA2CmF",
+            "mangledName": "$s14MipsPaymentSdk8CurrencyO13Guinean_FrancyA2CmF",
             "moduleName": "MipsPaymentSdk"
           },
           {
@@ -3221,53 +3565,102 @@
       "value": "\"Completing your\npayment\ndon’t press back\nbutton\""
     },
     {
-      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 178,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 208,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 2,
-      "value": "99"
-    },
-    {
-      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 265,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/MipsPaymentJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 296,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/MIPSViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3417,
+      "offset": 3562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 159,
       "length": 5,
       "value": "\"MUR\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 5,
+      "value": "\"USD\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 5,
+      "value": "\"EUR\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 5,
+      "value": "\"MGA\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "\"GBP\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 5,
+      "value": "\"AUD\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 5,
+      "value": "\"ZAR\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 5,
+      "value": "\"SCR\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "\"AED\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 436,
+      "length": 5,
+      "value": "\"JPY\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 5,
+      "value": "\"XOF\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 5,
+      "value": "\"XAF\""
+    },
+    {
+      "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/Models\/Currency.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 5,
+      "value": "\"GNF\""
     },
     {
       "filePath": "\/Users\/shyankdev\/learning\/akshar\/MIPS\/iOS_sdk_source_code\/MipsPaymentSdk\/Sources\/UI\/ImgManager.swift",
